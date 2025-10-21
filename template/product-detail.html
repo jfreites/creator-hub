@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Stitch Design</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script>
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              primary: "#1919e6",
+              "background-light": "#f6f6f8",
+              "background-dark": "#111121",
+            },
+            fontFamily: {
+              display: ["Be Vietnam Pro"],
+            },
+            borderRadius: { DEFAULT: "0.25rem", lg: "0.5rem", xl: "0.75rem", full: "9999px" },
+          },
+        },
+      };
+    </script>
+<style>
+      .material-symbols-outlined {
+        font-variation-settings: "FILL" 1;
+      }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display">
+<div class="flex flex-col min-h-screen">
+<header class="sticky top-0 z-10 bg-background-light/80 dark:bg-background-dark/80 backdrop-blur-sm border-b border-primary/20 dark:border-primary/30">
+<div class="container mx-auto px-4 sm:px-6 lg:px-8">
+<div class="flex items-center justify-between h-16">
+<div class="flex items-center space-x-8">
+<a class="flex items-center space-x-2" href="#">
+<span class="material-symbols-outlined text-primary text-3xl"> all_inclusive </span>
+<span class="text-xl font-bold text-background-dark dark:text-background-light">Creator Hub</span>
+</a>
+<nav class="hidden md:flex space-x-8">
+<a class="text-sm font-medium text-background-dark/80 dark:text-background-light/80 hover:text-primary" href="#">Home</a>
+<a class="text-sm font-medium text-primary" href="#">Explore</a>
+<a class="text-sm font-medium text-background-dark/80 dark:text-background-light/80 hover:text-primary" href="#">Learn</a>
+<a class="text-sm font-medium text-background-dark/80 dark:text-background-light/80 hover:text-primary" href="#">Resources</a>
+</nav>
+</div>
+<div class="flex items-center space-x-4">
+<div class="relative hidden sm:block">
+<span class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-background-dark/50 dark:text-background-light/50"> search </span>
+<input class="bg-background-light dark:bg-background-dark border border-primary/20 dark:border-primary/30 rounded-full py-2 pl-10 pr-4 text-sm w-48 focus:w-64 transition-all focus:outline-none focus:ring-2 focus:ring-primary/50 text-background-dark dark:text-background-light" placeholder="Search" type="text"/>
+</div>
+<button class="p-2 rounded-full hover:bg-primary/10 dark:hover:bg-primary/20 text-background-dark dark:text-background-light">
+<span class="material-symbols-outlined"> favorite </span>
+</button>
+<button class="p-2 rounded-full hover:bg-primary/10 dark:hover:bg-primary/20 text-background-dark dark:text-background-light">
+<span class="material-symbols-outlined"> shopping_cart </span>
+</button>
+<div class="w-10 h-10 rounded-full bg-cover bg-center" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBWUdyMHyLV0GGb2gisAm2RqZzuGSbdvQcDTJbf9zgPlZd22cbOLh9Q6O_QVGLWC8fkmcfr95X4hb6RqmaI-o7hmY1dgHfBuLKGjrkHtuSyyh5cSPxnisktryqM7Apgxb_KBgWz_XfIlkRy9K_O8TfJn9w7VolYV6S6F0C1_yGjko1opEu8IJ-w_rB3HU0rEDqHH8QmXyFfHwfj-nCc_QStim2L__ZWQK8cugcqXukkRYLQ2ZlVBK6aR2_cEvXOvmLDIGsZsWnYgWw')"></div>
+</div>
+</div>
+</div>
+</header>
+<main class="container mx-auto px-4 sm:px-6 lg:px-8 py-8 flex-grow">
+<div class="grid grid-cols-1 lg:grid-cols-3 gap-8 lg:gap-12">
+<div class="lg:col-span-2">
+<div class="mb-4 text-sm text-background-dark/60 dark:text-background-light/60">
+<a class="hover:text-primary" href="#">Home</a>
+<span>/</span>
+<a class="hover:text-primary" href="#">Presets</a>
+<span>/</span>
+<span class="text-background-dark dark:text-background-light font-medium">Urban Collection</span>
+</div>
+<div class="aspect-w-16 aspect-h-9 rounded-lg overflow-hidden mb-8">
+<img alt="Urban cityscape photography" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD-vPlGkwonpXjS8DR-do9o66f_SlWw9gtenWGvrV4Z0J7iqFG7BKizZaLkAEaYXHruyRVbNVz9_JA1u-VNZ1ki20mSL45wFsG_6-XhYDXc3dRCpG_6QW7UCx8hVtqUTlwDIgQAaDP70ypXPMdp5mp5Kgmk7s5GLyynTZHrgOmbJtTxALBlqw7e3FKi6mkfKtPJTJ5z3lIMNdAPK3CWO6Cr6fT5Up8vBJ4BJEhc8k1kGoiuGZA-cVhxP1kewz8cYzHD6g1atRZlzk0"/>
+</div>
+<h1 class="text-3xl lg:text-4xl font-bold text-background-dark dark:text-background-light mb-4">Premium Lightroom Presets - Urban Collection</h1>
+<p class="text-background-dark/80 dark:text-background-light/80 mb-8 leading-relaxed">
+              Elevate your urban photography with this collection of Lightroom presets. Designed to enhance cityscapes and street photography, these presets add a professional touch to your images with rich tones and sharp details.
+            </p>
+<div class="border-t border-primary/20 dark:border-primary/30 pt-8">
+<h3 class="text-xl font-bold text-background-dark dark:text-background-light mb-6">Customer Reviews</h3>
+<div class="flex flex-col md:flex-row items-start md:items-center gap-6 md:gap-12 mb-8">
+<div class="text-center">
+<p class="text-6xl font-black text-background-dark dark:text-background-light">4.8</p>
+<div class="flex justify-center text-primary mt-1">
+<span class="material-symbols-outlined">star</span>
+<span class="material-symbols-outlined">star</span>
+<span class="material-symbols-outlined">star</span>
+<span class="material-symbols-outlined">star</span>
+<span class="material-symbols-outlined">star_half</span>
+</div>
+<p class="text-sm text-background-dark/60 dark:text-background-light/60 mt-2">Based on 235 reviews</p>
+</div>
+<div class="w-full flex-1">
+<div class="flex items-center gap-4 mb-2">
+<span class="text-sm text-background-dark/80 dark:text-background-light/80">5</span>
+<div class="w-full bg-primary/10 dark:bg-primary/20 rounded-full h-2">
+<div class="bg-primary rounded-full h-2" style="width: 70%"></div>
+</div>
+<span class="text-sm text-background-dark/60 dark:text-background-light/60 w-8 text-right">70%</span>
+</div>
+<div class="flex items-center gap-4 mb-2">
+<span class="text-sm text-background-dark/80 dark:text-background-light/80">4</span>
+<div class="w-full bg-primary/10 dark:bg-primary/20 rounded-full h-2">
+<div class="bg-primary rounded-full h-2" style="width: 20%"></div>
+</div>
+<span class="text-sm text-background-dark/60 dark:text-background-light/60 w-8 text-right">20%</span>
+</div>
+<div class="flex items-center gap-4 mb-2">
+<span class="text-sm text-background-dark/80 dark:text-background-light/80">3</span>
+<div class="w-full bg-primary/10 dark:bg-primary/20 rounded-full h-2">
+<div class="bg-primary rounded-full h-2" style="width: 5%"></div>
+</div>
+<span class="text-sm text-background-dark/60 dark:text-background-light/60 w-8 text-right">5%</span>
+</div>
+<div class="flex items-center gap-4 mb-2">
+<span class="text-sm text-background-dark/80 dark:text-background-light/80">2</span>
+<div class="w-full bg-primary/10 dark:bg-primary/20 rounded-full h-2">
+<div class="bg-primary rounded-full h-2" style="width: 3%"></div>
+</div>
+<span class="text-sm text-background-dark/60 dark:text-background-light/60 w-8 text-right">3%</span>
+</div>
+<div class="flex items-center gap-4">
+<span class="text-sm text-background-dark/80 dark:text-background-light/80">1</span>
+<div class="w-full bg-primary/10 dark:bg-primary/20 rounded-full h-2">
+<div class="bg-primary rounded-full h-2" style="width: 2%"></div>
+</div>
+<span class="text-sm text-background-dark/60 dark:text-background-light/60 w-8 text-right">2%</span>
+</div>
+</div>
+</div>
+<div class="space-y-8">
+<div class="border-t border-primary/20 dark:border-primary/30 pt-8">
+<div class="flex items-start gap-4">
+<img alt="Sophia Carter" class="w-12 h-12 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA2aYHmea8eqGSTpinrioBdqPnBpdsr5O0dCg9PqkXT9kKHQSQaAUy37X6tUBgeLdgFx9xHAfAI3EF4Uu4YA_YpYW2z0_7qb6U6t8dyJxCx8M-TkRXSGYa33GP7bxOQ-OaSGwacF_2SqhpEDELjJ-dBgWQMZTwN2AxXeE4Py4xAN3ufYJOAjwZ8PBueUMq-P_oCiOsIuoRTURm85wq_1z7W8g16KbK5uAssx93uffj9HE-5DhkljAj6tgzikzY88DcqMqy7S7_H6WE"/>
+<div class="flex-1">
+<div class="flex items-center justify-between">
+<div>
+<p class="font-bold text-background-dark dark:text-background-light">Sophia Carter</p>
+<p class="text-sm text-background-dark/60 dark:text-background-light/60">2 weeks ago</p>
+</div>
+<div class="flex text-primary">
+<span class="material-symbols-outlined text-base">star</span>
+<span class="material-symbols-outlined text-base">star</span>
+<span class="material-symbols-outlined text-base">star</span>
+<span class="material-symbols-outlined text-base">star</span>
+<span class="material-symbols-outlined text-base">star</span>
+</div>
+</div>
+<p class="mt-3 text-background-dark/80 dark:text-background-light/80">
+                        These presets are amazing! They completely transformed my urban photos, giving them a professional and polished look. Highly recommend!
+                      </p>
+<div class="flex items-center gap-6 mt-4 text-sm text-background-dark/60 dark:text-background-light/60">
+<button class="flex items-center gap-1 hover:text-primary">
+<span class="material-symbols-outlined text-lg">thumb_up</span> 15
+                        </button>
+<button class="flex items-center gap-1 hover:text-primary">
+<span class="material-symbols-outlined text-lg">thumb_down</span> 2
+                        </button>
+</div>
+</div>
+</div>
+</div>
+<div class="border-t border-primary/20 dark:border-primary/30 pt-8">
+<div class="flex items-start gap-4">
+<img alt="Ethan Bennett" class="w-12 h-12 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDurvmF2i6-1IL7UVA-XpiDVo7t91ruC38tRSEyaeAuy_2MV1H77Fk8xKwOn_FG3mkox7cflQ1lAf67ZrK277heNflnMBTR5xCiqf0dv53jNYJDtDHkUcW_CHnShQXYhwXTliGfLjyfz8REbfJ7cTW_gmV6dMt-epIKTiHRmI00AJIKUdjDZy86CTgN8U7Yg54dN9dPnDtCdvHjZKOCMlcl8jYRK0MdzFJacm0z3T-YhESCSAfBq9xyJ4HE3fvl_4QpQeu3SJA3Zts"/>
+<div class="flex-1">
+<div class="flex items-center justify-between">
+<div>
+<p class="font-bold text-background-dark dark:text-background-light">Ethan Bennett</p>
+<p class="text-sm text-background-dark/60 dark:text-background-light/60">1 month ago</p>
+</div>
+<div class="flex text-primary">
+<span class="material-symbols-outlined text-base">star</span>
+<span class="material-symbols-outlined text-base">star</span>
+<span class="material-symbols-outlined text-base">star</span>
+<span class="material-symbols-outlined text-base">star</span>
+<span class="material-symbols-outlined text-base text-primary/30">star</span>
+</div>
+</div>
+<p class="mt-3 text-background-dark/80 dark:text-background-light/80">
+                        Great presets for the price. They work well on a variety of urban shots, but some adjustments may be needed depending on the lighting.
+                      </p>
+<div class="flex items-center gap-6 mt-4 text-sm text-background-dark/60 dark:text-background-light/60">
+<button class="flex items-center gap-1 hover:text-primary">
+<span class="material-symbols-outlined text-lg">thumb_up</span> 8
+                        </button>
+<button class="flex items-center gap-1 hover:text-primary">
+<span class="material-symbols-outlined text-lg">thumb_down</span> 1
+                        </button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="lg:col-span-1">
+<div class="sticky top-24 bg-background-light/50 dark:bg-background-dark/50 p-6 rounded-xl border border-primary/20 dark:border-primary/30 shadow-lg">
+<h2 class="text-2xl font-bold text-background-dark dark:text-background-light mb-2">Pricing</h2>
+<p class="text-4xl font-black text-primary mb-6">$19.99</p>
+<div class="mb-6">
+<h3 class="text-lg font-bold text-background-dark dark:text-background-light mb-4">Product Details</h3>
+<div class="space-y-3 text-sm">
+<div class="flex justify-between">
+<span class="text-background-dark/60 dark:text-background-light/60">File Type</span>
+<span class="font-medium text-background-dark dark:text-background-light">DNG</span>
+</div>
+<div class="flex justify-between">
+<span class="text-background-dark/60 dark:text-background-light/60">Compatibility</span>
+<span class="font-medium text-background-dark dark:text-background-light text-right">Lightroom Desktop &amp; Mobile</span>
+</div>
+<div class="flex justify-between">
+<span class="text-background-dark/60 dark:text-background-light/60">Included</span>
+<span class="font-medium text-background-dark dark:text-background-light text-right">10 Presets, Installation Guide</span>
+</div>
+</div>
+</div>
+<button class="w-full bg-primary text-white font-bold py-3 px-6 rounded-lg text-lg hover:bg-primary/90 transition-colors flex items-center justify-center gap-2">
+<span class="material-symbols-outlined">add_shopping_cart</span>
+                Add to Cart
+              </button>
+<button class="w-full mt-3 bg-primary/10 dark:bg-primary/20 text-primary font-bold py-3 px-6 rounded-lg text-lg hover:bg-primary/20 dark:hover:bg-primary/30 transition-colors">
+                Add to Wishlist
+              </button>
+</div>
+</div>
+</div>
+</main>
+<footer class="bg-background-dark text-background-light mt-16">
+<div class="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
+<div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+<div class="col-span-2 md:col-span-1">
+<a class="flex items-center space-x-2" href="#">
+<span class="material-symbols-outlined text-primary text-3xl"> all_inclusive </span>
+<span class="text-xl font-bold">Creator Hub</span>
+</a>
+<p class="mt-4 text-sm text-background-light/60">A marketplace for creators to thrive.</p>
+</div>
+<div>
+<h4 class="font-bold tracking-wider uppercase text-background-light/80">Explore</h4>
+<ul class="mt-4 space-y-2 text-sm text-background-light/60">
+<li><a class="hover:text-primary" href="#">Downloads</a></li>
+<li><a class="hover:text-primary" href="#">Mentorships</a></li>
+<li><a class="hover:text-primary" href="#">Courses</a></li>
+<li><a class="hover:text-primary" href="#">Services</a></li>
+</ul>
+</div>
+<div>
+<h4 class="font-bold tracking-wider uppercase text-background-light/80">Resources</h4>
+<ul class="mt-4 space-y-2 text-sm text-background-light/60">
+<li><a class="hover:text-primary" href="#">Blog</a></li>
+<li><a class="hover:text-primary" href="#">Help Center</a></li>
+<li><a class="hover:text-primary" href="#">Terms of Service</a></li>
+<li><a class="hover:text-primary" href="#">Privacy Policy</a></li>
+</ul>
+</div>
+<div>
+<h4 class="font-bold tracking-wider uppercase text-background-light/80">Follow Us</h4>
+<div class="flex mt-4 space-x-4">
+<a class="text-background-light/60 hover:text-primary" href="#"><svg aria-hidden="true" class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path clip-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" fill-rule="evenodd"></path></svg></a>
+<a class="text-background-light/60 hover:text-primary" href="#"><svg aria-hidden="true" class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.71v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84"></path></svg></a>
+<a class="text-background-light/60 hover:text-primary" href="#"><svg aria-hidden="true" class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path clip-rule="evenodd" d="M12 2C6.477 2 2 6.477 2 12s4.477 10 10 10 10-4.477 10-10S17.523 2 12 2zm4.927 8.177c.287.464.453.98.453 1.519 0 .227-.024.448-.07.666a5.023 5.023 0 01-2.14 3.63c-.57.443-1.254.747-2.008.895a.6.6 0 01-.252.044c-1.07 0-2.012-.42-2.73-1.121a.6.6 0 01.378-1.037c.328-.158.747-.03 1.01.268.618.68 1.51.9 2.33.342.18-.12.334-.265.46-.432.222-.29.356-.633.356-1.002 0-.417-.148-.813-.42-1.115-.22-.249-.5-.44-.817-.577-1.134-.483-2.36-.084-3.084.942a.6.6 0 01-1.008-.475c.012-.663.26-1.273.687-1.748.454-.508 1.05-.838 1.713-.94.975-.15 1.882.26 2.473.97Z" fill-rule="evenodd"></path></svg></a>
+</div>
+</div>
+</div>
+<div class="mt-12 border-t border-primary/20 dark:border-primary/30 pt-8 text-center text-sm text-background-light/60">
+<p>© 2024 Creator Hub. All Rights Reserved.</p>
+</div>
+</div>
+</footer>
+</div>
+
+</body></html>

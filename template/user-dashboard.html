@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Creator Dashboard</title>
+<link href="data:image/x-icon;base64," rel="icon" type="image/x-icon"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700;900&amp;display=swap" rel="stylesheet"/>
+<script>
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#1919e6",
+                        "background-light": "#f6f6f8",
+                        "background-dark": "#111121",
+                    },
+                    fontFamily: {
+                        "display": ["Be Vietnam Pro"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+</head>
+<body class="bg-background-light dark:bg-background-dark font-display text-gray-800 dark:text-gray-200">
+<div class="flex min-h-screen">
+<aside class="w-64 bg-background-light dark:bg-background-dark border-r border-gray-200 dark:border-gray-700/50 flex flex-col p-4">
+<div class="flex items-center gap-3 p-2">
+<div class="bg-center bg-no-repeat aspect-square bg-cover rounded-full size-10" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuA_0E1RmghDviYvrrNWqPPxYmYBnXs5lf1loruNicdK5YOFC-XE4g3k7-bUxhavckH1cxPeouh5yRHu_8Usk66uCefehaGyyeCsWOn0mug-Wdnt3w6eEM_ihvO4_hlZEFMMmMk8BZNmP4PfydNK1bYK5I-582dCdqDyitA-ZT71FgKBb1ghcczxLnyS7bL7-JhBfA4C7_uAltYu0d6Pi_7YsXkdR6bpMOchWMPLB0A7vrI8hy_RCNuKx3c87yo1nxTlkACJNfqFUi0");'></div>
+<div class="flex flex-col">
+<h1 class="text-gray-900 dark:text-white font-bold text-sm">Sophia Carter</h1>
+<p class="text-gray-500 dark:text-gray-400 text-xs">@sophiacarter</p>
+</div>
+</div>
+<nav class="mt-8 flex flex-col gap-2">
+<a class="flex items-center gap-3 px-3 py-2 rounded-lg bg-primary/10 text-primary dark:bg-primary/20 font-bold" href="#">
+<svg fill="currentColor" height="24" viewBox="0 0 256 256" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M224,115.55V208a16,16,0,0,1-16,16H168a16,16,0,0,1-16-16V168a8,8,0,0,0-8-8H112a8,8,0,0,0-8,8v40a16,16,0,0,1-16,16H48a16,16,0,0,1-16-16V115.55a16,16,0,0,1,5.17-11.78l80-75.48.11-.11a16,16,0,0,1,21.53,0,1.14,1.14,0,0,0,.11.11l80,75.48A16,16,0,0,1,224,115.55Z"></path>
+</svg>
+<span class="text-sm">Dashboard</span>
+</a>
+<a class="flex items-center gap-3 px-3 py-2 rounded-lg hover:bg-gray-200 dark:hover:bg-gray-800 text-gray-700 dark:text-gray-300" href="#">
+<svg fill="currentColor" height="24" viewBox="0 0 256 256" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M80,64a8,8,0,0,1,8-8H216a8,8,0,0,1,0,16H88A8,8,0,0,1,80,64Zm136,56H88a8,8,0,0,0,0,16H216a8,8,0,0,0,0-16Zm0,64H88a8,8,0,0,0,0,16H216a8,8,0,0,0,0-16ZM44,52A12,12,0,1,0,56,64,12,12,0,0,0,44,52Zm0,64a12,12,0,1,0,12,12A12,12,0,0,0,44,116Zm0,64a12,12,0,1,0,12,12A12,12,0,0,0,44,180Z"></path>
+</svg>
+<span class="text-sm">Listings</span>
+</a>
+<a class="flex items-center gap-3 px-3 py-2 rounded-lg hover:bg-gray-200 dark:hover:bg-gray-800 text-gray-700 dark:text-gray-300" href="#">
+<svg fill="currentColor" height="24" viewBox="0 0 256 256" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M72,104a8,8,0,0,1,8-8h96a8,8,0,0,1,0,16H80A8,8,0,0,1,72,104Zm8,40h96a8,8,0,0,0,0-16H80a8,8,0,0,0,0,16ZM232,56V208a8,8,0,0,1-11.58,7.15L192,200.94l-28.42,14.21a8,8,0,0,1-7.16,0L128,200.94,99.58,215.15a8,8,0,0,1-7.16,0L64,200.94,35.58,215.15A8,8,0,0,1,24,208V56A16,16,0,0,1,40,40H216A16,16,0,0,1,232,56Zm-16,0H40V195.06l20.42-10.22a8,8,0,0,1,7.16,0L96,199.06l28.42-14.22a8,8,0,0,1,7.16,0L160,199.06l28.42-14.22a8,8,0,0,1,7.16,0L216,195.06Z"></path>
+</svg>
+<span class="text-sm">Orders</span>
+</a>
+<a class="flex items-center gap-3 px-3 py-2 rounded-lg hover:bg-gray-200 dark:hover:bg-gray-800 text-gray-700 dark:text-gray-300" href="#">
+<svg fill="currentColor" height="24px" viewBox="0 0 256 256" width="24px" xmlns="http://www.w3.org/2000/svg"><path d="M140,128a12,12,0,1,1-12-12A12,12,0,0,1,140,128ZM84,116a12,12,0,1,0,12,12A12,12,0,0,0,84,116Zm88,0a12,12,0,1,0,12,12A12,12,0,0,0,172,116Zm60,12A104,104,0,0,1,79.12,219.82L45.07,231.17a16,16,0,0,1-20.24-20.24l11.35-34.05A104,104,0,1,1,232,128Zm-16,0A88,88,0,1,0,51.81,172.06a8,8,0,0,1,.66,6.54L40,216,77.4,203.53a7.85,7.85,0,0,1,2.53-.42,8,8,0,0,1,4,1.08A88,88,0,0,0,216,128Z"></path></svg>
+<span class="text-sm">Messages</span>
+</a>
+<a class="flex items-center gap-3 px-3 py-2 rounded-lg hover:bg-gray-200 dark:hover:bg-gray-800 text-gray-700 dark:text-gray-300" href="#">
+<svg fill="currentColor" height="24" viewBox="0 0 256 256" width="24" xmlns="http://www.w3.org/2000/svg">
+<path d="M216,40H136V24a8,8,0,0,0-16,0V40H40A16,16,0,0,0,24,56V176a16,16,0,0,0,16,16H79.36L57.75,219a8,8,0,0,0,12.5,10l29.59-37h56.32l29.59,37a8,8,0,1,0,12.5-10l-21.61-27H216a16,16,0,0,0,16-16V56A16,16,0,0,0,216,40Zm0,136H40V56H216V176ZM104,120v24a8,8,0,0,1-16,0V120a8,8,0,0,1,16,0Zm32-16v40a8,8,0,0,1-16,0V104a8,8,0,0,1,16,0Zm32-16v56a8,8,0,0,1-16,0V88a8,8,0,0,1,16,0Z"></path>
+</svg>
+<span class="text-sm">Analytics</span>
+</a>
+</nav>
+<div class="mt-auto">
+<a class="flex items-center gap-3 px-3 py-2 rounded-lg hover:bg-gray-200 dark:hover:bg-gray-800 text-gray-700 dark:text-gray-300" href="#">
+<svg fill="currentColor" height="24px" viewBox="0 0 256 256" width="24px" xmlns="http://www.w3.org/2000/svg"><path d="M128,80a48,48,0,1,0,48,48A48.05,48.05,0,0,0,128,80Zm0,80a32,32,0,1,1,32-32A32,32,0,0,1,128,160Zm88-29.84q.06-2.16,0-4.32l14.92-18.64a8,8,0,0,0,1.48-7.06,107.21,107.21,0,0,0-10.88-26.25,8,8,0,0,0-6-3.93l-23.72-2.64q-1.48-1.56-3-3L186,40.54a8,8,0,0,0-3.94-6,107.71,107.71,0,0,0-26.25-10.87,8,8,0,0,0-7.06,1.49L130.16,40Q128,40,125.84,40L107.2,25.11a8,8,0,0,0-7.06-1.48A107.6,107.6,0,0,0,73.89,34.51a8,8,0,0,0-3.93,6L67.32,64.27q-1.56,1.49-3,3L40.54,70a8,8,0,0,0-6,3.94,107.71,107.71,0,0,0-10.87,26.25,8,8,0,0,0,1.49,7.06L40,125.84Q40,128,40,130.16L25.11,148.8a8,8,0,0,0-1.48,7.06,107.21,107.21,0,0,0,10.88,26.25,8,8,0,0,0,6,3.93l23.72,2.64q1.49,1.56,3,3L70,215.46a8,8,0,0,0,3.94,6,107.71,107.71,0,0,0,26.25,10.87,8,8,0,0,0,7.06-1.49L125.84,216q2.16.06,4.32,0l18.64,14.92a8,8,0,0,0,7.06,1.48,107.21,107.21,0,0,0,26.25-10.88,8,8,0,0,0,3.93-6l2.64-23.72q1.56-1.48,3-3L215.46,186a8,8,0,0,0,6-3.94,107.71,107.71,0,0,0,10.87-26.25,8,8,0,0,0-1.49-7.06Zm-16.1-6.5a73.93,73.93,0,0,1,0,8.68,8,8,0,0,0,1.74,5.48l14.19,17.73a91.57,91.57,0,0,1-6.23,15L187,173.11a8,8,0,0,0-5.1,2.64,74.11,74.11,0,0,1-6.14,6.14,8,8,0,0,0-2.64,5.1l-2.51,22.58a91.32,91.32,0,0,1-15,6.23l-17.74-14.19a8,8,0,0,0-5-1.75h-.48a73.93,73.93,0,0,1-8.68,0,8,8,0,0,0-5.48,1.74L100.45,215.8a91.57,91.57,0,0,1-15-6.23L82.89,187a8,8,0,0,0-2.64-5.1,74.11,74.11,0,0,1-6.14-6.14,8,8,0,0,0-5.1-2.64L46.43,170.6a91.32,91.32,0,0,1-6.23-15l14.19-17.74a8,8,0,0,0,1.74-5.48,73.93,73.93,0,0,1,0-8.68,8,8,0,0,0-1.74-5.48L40.2,100.45a91.57,91.57,0,0,1,6.23-15L69,82.89a8,8,0,0,0,5.1-2.64,74.11,74.11,0,0,1,6.14-6.14A8,8,0,0,0,82.89,69L85.4,46.43a91.32,91.32,0,0,1,15-6.23l17.74,14.19a8,8,0,0,0,5.48,1.74,73.93,73.93,0,0,1,8.68,0,8,8,0,0,0,5.48-1.74L155.55,40.2a91.57,91.57,0,0,1,15,6.23L173.11,69a8,8,0,0,0,2.64,5.1,74.11,74.11,0,0,1,6.14,6.14,8,8,0,0,0,5.1,2.64l22.58,2.51a91.32,91.32,0,0,1,6.23,15l-14.19,17.74A8,8,0,0,0,199.87,123.66Z"></path></svg>
+<span class="text-sm">Settings</span>
+</a>
+</div>
+</aside>
+<main class="flex-1 p-8">
+<h1 class="text-4xl font-bold text-gray-900 dark:text-white mb-8">Dashboard</h1>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+<div class="bg-white dark:bg-background-dark/50 p-6 rounded-lg shadow-sm border border-gray-200 dark:border-gray-700/50">
+<p class="text-sm font-medium text-gray-500 dark:text-gray-400">Total Sales</p>
+<p class="text-3xl font-bold text-gray-900 dark:text-white mt-2">$1,250</p>
+</div>
+<div class="bg-white dark:bg-background-dark/50 p-6 rounded-lg shadow-sm border border-gray-200 dark:border-gray-700/50">
+<p class="text-sm font-medium text-gray-500 dark:text-gray-400">Total Earnings</p>
+<p class="text-3xl font-bold text-gray-900 dark:text-white mt-2">$975</p>
+</div>
+<div class="bg-white dark:bg-background-dark/50 p-6 rounded-lg shadow-sm border border-gray-200 dark:border-gray-700/50">
+<p class="text-sm font-medium text-gray-500 dark:text-gray-400">Active Listings</p>
+<p class="text-3xl font-bold text-gray-900 dark:text-white mt-2">15</p>
+</div>
+</div>
+<div class="bg-white dark:bg-background-dark/50 rounded-lg shadow-sm border border-gray-200 dark:border-gray-700/50 mb-8">
+<h2 class="text-xl font-bold text-gray-900 dark:text-white p-6">Recent Orders</h2>
+<div class="overflow-x-auto">
+<table class="w-full text-sm text-left text-gray-500 dark:text-gray-400">
+<thead class="text-xs text-gray-700 dark:text-gray-300 uppercase bg-gray-50 dark:bg-gray-800/50">
+<tr>
+<th class="px-6 py-3" scope="col">Order ID</th>
+<th class="px-6 py-3" scope="col">Customer</th>
+<th class="px-6 py-3" scope="col">Date</th>
+<th class="px-6 py-3" scope="col">Amount</th>
+<th class="px-6 py-3" scope="col">Status</th>
+</tr>
+</thead>
+<tbody>
+<tr class="bg-white dark:bg-transparent border-b dark:border-gray-700/50 hover:bg-gray-50 dark:hover:bg-gray-800/30">
+<th class="px-6 py-4 font-medium text-gray-900 dark:text-white whitespace-nowrap" scope="row">#12345</th>
+<td class="px-6 py-4">Liam Harper</td>
+<td class="px-6 py-4">2023-08-15</td>
+<td class="px-6 py-4">$50</td>
+<td class="px-6 py-4">
+<span class="px-2 py-1 text-xs font-medium rounded-full bg-green-100 text-green-800 dark:bg-green-900/50 dark:text-green-300">Completed</span>
+</td>
+</tr>
+<tr class="bg-white dark:bg-transparent border-b dark:border-gray-700/50 hover:bg-gray-50 dark:hover:bg-gray-800/30">
+<th class="px-6 py-4 font-medium text-gray-900 dark:text-white whitespace-nowrap" scope="row">#12346</th>
+<td class="px-6 py-4">Olivia Bennett</td>
+<td class="px-6 py-4">2023-08-16</td>
+<td class="px-6 py-4">$75</td>
+<td class="px-6 py-4">
+<span class="px-2 py-1 text-xs font-medium rounded-full bg-green-100 text-green-800 dark:bg-green-900/50 dark:text-green-300">Completed</span>
+</td>
+</tr>
+<tr class="bg-white dark:bg-transparent border-b dark:border-gray-700/50 hover:bg-gray-50 dark:hover:bg-gray-800/30">
+<th class="px-6 py-4 font-medium text-gray-900 dark:text-white whitespace-nowrap" scope="row">#12347</th>
+<td class="px-6 py-4">Noah Foster</td>
+<td class="px-6 py-4">2023-08-17</td>
+<td class="px-6 py-4">$100</td>
+<td class="px-6 py-4">
+<span class="px-2 py-1 text-xs font-medium rounded-full bg-yellow-100 text-yellow-800 dark:bg-yellow-900/50 dark:text-yellow-300">Pending</span>
+</td>
+</tr>
+<tr class="bg-white dark:bg-transparent border-b dark:border-gray-700/50 hover:bg-gray-50 dark:hover:bg-gray-800/30">
+<th class="px-6 py-4 font-medium text-gray-900 dark:text-white whitespace-nowrap" scope="row">#12348</th>
+<td class="px-6 py-4">Ava Mitchell</td>
+<td class="px-6 py-4">2023-08-18</td>
+<td class="px-6 py-4">$60</td>
+<td class="px-6 py-4">
+<span class="px-2 py-1 text-xs font-medium rounded-full bg-green-100 text-green-800 dark:bg-green-900/50 dark:text-green-300">Completed</span>
+</td>
+</tr>
+<tr class="bg-white dark:bg-transparent hover:bg-gray-50 dark:hover:bg-gray-800/30">
+<th class="px-6 py-4 font-medium text-gray-900 dark:text-white whitespace-nowrap" scope="row">#12349</th>
+<td class="px-6 py-4">Ethan Hayes</td>
+<td class="px-6 py-4">2023-08-19</td>
+<td class="px-6 py-4">$85</td>
+<td class="px-6 py-4">
+<span class="px-2 py-1 text-xs font-medium rounded-full bg-green-100 text-green-800 dark:bg-green-900/50 dark:text-green-300">Completed</span>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="bg-white dark:bg-background-dark/50 rounded-lg shadow-sm border border-gray-200 dark:border-gray-700/50">
+<h2 class="text-xl font-bold text-gray-900 dark:text-white p-6">Recent Messages</h2>
+<div class="divide-y divide-gray-200 dark:divide-gray-700/50">
+<div class="p-4 flex items-start gap-4 hover:bg-gray-50 dark:hover:bg-gray-800/30">
+<div class="bg-center bg-no-repeat aspect-square bg-cover rounded-full h-10 w-10 flex-shrink-0" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuD57SXVUVqDDumNl_njH81lvkZh7i0uoj1J0ktRvNnN68N8thwZDHDVXCWDzEr4jmYxuGPhKB-WDsGs2Tq4jswvdhbVYhSZxMJ_0nrEVRxlh6fKOnuHz1m1IDII6Pv9EJgglHi0ygPBL0KOXUlBs2R8LjNSWUSUKGFzeEQ9dRRblueCL3lSu2dFK3GtttHfjEfd10TnfdsDAGSFr1SqnIp8so2WuNyzdTwbnGsYH0YEsYx1QqNCypk7O8wprIGIwTt-J9wzLGLEsgE");'></div>
+<div class="flex-1">
+<p class="text-sm font-bold text-gray-900 dark:text-white">Isabella Clark</p>
+<p class="text-sm text-gray-500 dark:text-gray-400 mt-1">Hi Sophia, I'm interested in your photography course. Can you tell me more about the modules?</p>
+</div>
+</div>
+<div class="p-4 flex items-start gap-4 hover:bg-gray-50 dark:hover:bg-gray-800/30">
+<div class="bg-center bg-no-repeat aspect-square bg-cover rounded-full h-10 w-10 flex-shrink-0" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuA6EtDhywcO40lMM39MmZlXZmEObRsbn8tS6IlbFi3RIUT1H6qVeh_hxd2wYRrA6CH6gBRyRRP6Lt0avi86RfnqG2HCBDEzeWsuCNeyJPx6G87phtBBnaYXfyDu2OiAorVMexxgpPrNcpGpc2fnIHSBuhYmV7uR6hzcaNYmNyT9AV1WNWfm9fh4ZdpTHnUS-YkSR4jXGVVKXdu_Re3VI9dernOlR4xovKuu6SNZEgDVPXsDhAoHtPRryxFTyxK_eyDWDj-btiAmYpA");'></div>
+<div class="flex-1">
+<p class="text-sm font-bold text-gray-900 dark:text-white">Owen Turner</p>
+<p class="text-sm text-gray-500 dark:text-gray-400 mt-1">Thank you for your purchase! Your files are now available for download.</p>
+</div>
+</div>
+<div class="p-4 flex items-start gap-4 hover:bg-gray-50 dark:hover:bg-gray-800/30">
+<div class="bg-center bg-no-repeat aspect-square bg-cover rounded-full h-10 w-10 flex-shrink-0" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBOnxDxGgoHBG0D6qSqkyszJ62-mNiv1TlvfPVTd8wk4bf_gXlDq9AeWNy-YnhYEkqMw20GIKx7QOLzMvqsU5Siklqv3Qb7n378tQu3ekPqtSKlKpaZAgAHUxlnDurBn3R6ozcaxjEq0rlmXZnIqoebjmORF39SbakaYmrLQeGFi_5hqpcuZH4AgJrHIasYdW3OclWF_oFjCDe4ouJe7OIhN7zKa4KO8eu9wRSmF3BjPzAbd_vHb4Ij0WFksV3cYzn1ChO9Et3Enqw");'></div>
+<div class="flex-1">
+<p class="text-sm font-bold text-gray-900 dark:text-white">Mia Bennett</p>
+<p class="text-sm text-gray-500 dark:text-gray-400 mt-1">I'm having trouble accessing the mentorship session. Can you help?</p>
+</div>
+</div>
+</div>
+</div>
+</main>
+</div>
+
+</body></html>
