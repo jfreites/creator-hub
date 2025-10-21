@@ -8,7 +8,6 @@
 
 @custom-variant dark (&:where(.dark, .dark *));
 
-/* --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji'; */
 @theme {
     --font-display: 'Be Vietnam Pro', sans-serif;
 
