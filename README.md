@@ -3,3 +3,11 @@
 [![tests](https://github.com/jfreites/creator-hub/actions/workflows/tests.yml/badge.svg)](https://github.com/jfreites/creator-hub/actions/workflows/tests.yml)
 
 [![linter](https://github.com/jfreites/creator-hub/actions/workflows/lint.yml/badge.svg)](https://github.com/jfreites/creator-hub/actions/workflows/lint.yml)
+
+# Creator Hub
+
+...
+
+## Setup development environment
+
+[If you are using Herd, read this article](https://imranic.com/article/how-to-install-pcov-in-laravel-herd-to-see-code-coverage-of-laravel-application)
